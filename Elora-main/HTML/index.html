@@ -21,6 +21,7 @@
 
     <!-- Custom Stylesheets -->
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/submenu.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
 </head>
@@ -54,43 +55,73 @@
                 <i class="fas fa-home fa-lg" aria-hidden="true"></i>
                 <a href="#home" style="margin-left: 10px;">Inicio</a>
             </span>
-            
+
             <span style="display: flex; align-items: center; margin-right: 20px;">
                 <i class="fas fa-info-circle fa-lg" aria-hidden="true"></i>
                 <a href="#about" style="margin-left: 10px;">sobre</a>
             </span>
-            
+
             <span style="display: flex; align-items: center; margin-right: 20px;">
                 <i class="fas fa-gavel fa-lg" aria-hidden="true"></i>
                 <a href="#service" style="margin-left: 10px;">Serviço</a>
             </span>
-            
+
             <span style="display: flex; align-items: center; margin-right: 20px;">
                 <i class="fas fa-window-restore fa-lg" aria-hidden="true"></i>
                 <a href="#portfolio" style="margin-left: 10px;">Portfolio</a>
             </span>
-            
+
             <span style="display: flex; align-items: center; margin-right: 20px;">
                 <i class="fa fa-users fa-lg" aria-hidden="true"></i>
                 <a href="#testimonial" style="margin-left: 10px;">Depoimento</a>
             </span>
-            
+
             <span style="display: flex; align-items: center; margin-right: 20px;">
                 <i class="fa fa-file fa-lg" aria-hidden="true"></i>
                 <a href="#blog" style="margin-left: 10px;">Noticias</a>
             </span>
-            
+
             <span style="display: flex; align-items: center; margin-right: 20px;">
                 <i class="fa fa-phone-square fa-lg" aria-hidden="true"></i>
                 <a href="#contact" style="margin-left: 10px;">Contato</a>
             </span>
-
-            <span style="display: flex; align-items: center; margin-right: 20px;">
-                <i class="fa fa-user" aria-hidden="true"></i>
-                <a href="Login.html" style="margin-left: 10px;">Login</a>
-            </span>
-        <!-- Menubar -->
-        <div class="fas fa-bars" id="menu-btn"></div>
+            
+            <div class="dropdown" style="position: relative; display: inline-block;">
+                <span style="display: flex; align-items: center; margin-right: 20px;">
+                    <i class="fa fa-user" aria-hidden="true"></i>
+                    <a href="Login.html" style="margin-left: 10px;">Login</a>
+                </span>
+                <div class="dropdown-content"
+                    style="display: none; position: absolute; background-color: #deeaea; width: 200px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; padding: 8px; border-radius: 3%;">
+                    <a href="UsuarioIndex.html"
+                        style="color: black; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
+                        <i class="fa fa-users" aria-hidden="true" style="margin-right: 8px;"></i>
+                        Usuarios
+                    </a>
+                    <a href="#settings"
+                        style="color: black; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
+                        <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 8px;"></i>
+                        Agendamento Admin
+                    </a>
+                    <a href="#settings"
+                        style="color: black; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
+                        <i class="fa fa-calendar" aria-hidden="true" style="margin-right: 8px;"></i>
+                        Agendamento User
+                    </a>
+                    <a href="#settings"
+                        style="color: black; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
+                        <i class="fa fa-address-book" aria-hidden="true" style="margin-right: 8px"></i>                        
+                        Cadastro Agendamento
+                    </a>
+                    <a href="#logout"
+                        style="color: black; padding: 7px; text-decoration: none; display: flex; align-items: center; margin: 5px;">
+                        <i class="fa fa-file" aria-hidden="true" style="margin-right: 8px"></i>
+                        Relatório
+                    </a>
+                </div>
+            </div>
+            <!-- Menubar -->
+            <div class="fas fa-bars" id="menu-btn"></div>
 
     </header>
     <!-------------------- Header Area (End) -------------------->
@@ -529,7 +560,8 @@
                     <i class="fas fa-quote-left"></i>
 
                     <p class="comment">
-                        Recomendo fortemente para quem está em busca móveis personalizados e de alta qualidade e ótimo preço.
+                        Recomendo fortemente para quem está em busca móveis personalizados e de alta qualidade e ótimo
+                        preço.
                         O atendimento ao cliente foi excelente do início ao fim.
                     </p>
 
@@ -573,7 +605,8 @@
                         <p>Descubra as últimas tendências em design de móveis para 2024.
                             Desde o uso de materiais sustentáveis até novas abordagens estéticas.
                         </p>
-                        <a href="https://setormoveleiro.com.br/tendencias-de-design-de-moveis/" class="btn">leia mais <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://setormoveleiro.com.br/tendencias-de-design-de-moveis/" class="btn">leia mais <i
+                                class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -590,7 +623,8 @@
                         <p>Dicas essenciais para escolher móveis que combinam com o seu estilo e
                             necessidades, garantindo conforto e funcionalidade.
                         </p>
-                        <a href="https://vidasimples.co/colunista/5-maneiras-de-escolher-moveis-certos-para-a-sua-casa/" class="btn">leia mais <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://vidasimples.co/colunista/5-maneiras-de-escolher-moveis-certos-para-a-sua-casa/"
+                            class="btn">leia mais <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -607,7 +641,8 @@
                         <p>Saiba como cuidar dos seus móveis de madeira para que durem por muitos anos,
                             mantendo sua beleza e funcionalidade.
                         </p>
-                        <a href="https://www.mobellomoveis.com.br/blog/cuidados-para-conservar-o-seu-movel-de-madeira" class="btn">leia mais <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://www.mobellomoveis.com.br/blog/cuidados-para-conservar-o-seu-movel-de-madeira"
+                            class="btn">leia mais <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -624,7 +659,8 @@
                         <p>Descubra o processo de criação de móveis personalizados que refletem sua
                             personalidade e estilo único.
                         </p>
-                        <a href="https://meissnerhaus.com.br/blogs/novidades/moveis-personalizados-criando-pecas-unicas-para-atender-as-necessidades-dos-clientes" class="btn">leia mais <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://meissnerhaus.com.br/blogs/novidades/moveis-personalizados-criando-pecas-unicas-para-atender-as-necessidades-dos-clientes"
+                            class="btn">leia mais <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -641,7 +677,8 @@
                         <p>Veja como integrar móveis sustentáveis na decoração da sua casa, criando
                             ambientes elegantes e ecológicos.
                         </p>
-                        <a href="https://casacomdesign.com.br/dicas/dicas-para-criar-uma-decoracao-sustentavel/" class="btn">leia mais <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://casacomdesign.com.br/dicas/dicas-para-criar-uma-decoracao-sustentavel/"
+                            class="btn">leia mais <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -803,7 +840,16 @@
             e.preventDefault();
         });
     </script>
+    <script>
+        // Script to handle the dropdown functionality
+        document.querySelector('.dropdown').addEventListener('mouseover', function () {
+            this.querySelector('.dropdown-content').style.display = 'block';
+        });
 
+        document.querySelector('.dropdown').addEventListener('mouseout', function () {
+            this.querySelector('.dropdown-content').style.display = 'none';
+        });
+    </script>
 </body>
 
 </html>

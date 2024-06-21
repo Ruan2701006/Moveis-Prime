@@ -2,9 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 :root{
-    --dark-pink: #deeaea;
-    --orange2-color: #C7B7A3;
-    --darkiest-color: #648d78;
+    --light-pink:#deeaea;
+    --dark-pink:#deeaea;
+    --orange-color: #deeaea;
+    --orange2-color:#deeaea;
+    --white-color:#ffffff;
+    --darkiest-color:  #648d78;
+    --darkless-color: #deeaea;
     
 }
 
@@ -44,7 +48,7 @@ body {
     /* border: 1px solid #ddd; */
     border-radius: 10px;
     background-color: var(--white-color) ;
-    box-shadow: 0px 0px 23px -6px #ffd864;
+    box-shadow: 0px 0px 23px -6px   #648d78;
 }
 
 .custom_logo {
