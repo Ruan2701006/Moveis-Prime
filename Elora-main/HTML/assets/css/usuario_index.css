@@ -3,12 +3,13 @@
 
 
 :root {
-    --red: #fc0fc0;
-    --black: #000000;
-    --white: #000000;
-    --grey: #000000;
-    --purple:#fc0fc0;
-    --cinza:#575757;
+   --light-pink:#deeaea;
+    --dark-pink:#deeaea;
+    --orange-color: #deeaea;
+    --orange2-color:#deeaea;
+    --white-color:#ffffff;
+    --darkiest-color:  #648d78;
+    --darkless-color: #deeaea;
    
 }
 
@@ -20,7 +21,7 @@
 }
 
 body{
-    background-color: var(--black);
+    background-color: var(-);
 }
 
 html {
@@ -121,7 +122,23 @@ label{
 # Butao voltar
 --------------------------------------------------------------*/
 button{
-    background-color: #fc0fc0 !important;
+    background-color: #648d78 !important;
+    border: none !important;
+    color: var(--black) !important;
+    transition: .5s;
+}
+
+button:hover{
+    background-color: var(--black) !important;
+    color: var(--purple) !important;
+    border: 1px solid var(--purple) !important;
+}
+
+/*--------------------------------------------------------------
+# Butao voltar
+--------------------------------------------------------------*/
+button{
+    background-color: var(--purple) !important;
     border: none !important;
     color: var(--black) !important;
     transition: .5s;

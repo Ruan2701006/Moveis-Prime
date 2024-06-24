@@ -21,7 +21,7 @@
 
 h1 a{
     color: var(--darkiest-color) !important;
-    font-family: 'Dancing Script', cursive !important;
+    font-family: 'Roboto', cursive !important;
     font-weight: 700 !important;
     text-decoration: none;
 }

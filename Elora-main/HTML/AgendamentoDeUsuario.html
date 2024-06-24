@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +11,7 @@
     <link href="assets/lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/lib/swiper/swiper-bundle.min.css" rel="stylesheet">
     <link href="assets/lib/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/gerenciamento_index.css">
+    <link rel="stylesheet" href="assets/css/AgendamentoDeUsuario_index.css">
  
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
@@ -29,7 +30,7 @@
 
             <div class="add-user-button">
                 <br>
-                <h1 class="section-title cliente-title-maneger">Gerenciamento de Agendamento</h1>
+                <h1 class="section-title cliente-title-maneger">Agendamento de Ususario</h1>
                 <br>
             </div>
 
@@ -84,7 +85,7 @@
 
                                 <td class="text-center">
                                     <button class="btn btn-default" onclick="definirEdt('@item.Id','@item.Nome', '@item.Email', '@item.Telefone', '@item.AgendarData','@item.Horario', '@item.Servico', '@item.Valor', '@item.Confirmacao')" data-bs-toggle="modal" data-bs-target="#EditarAgendamento">
-                                        <i class="fa fa-edit" style="color: #000000;"></i>
+                                        <i class="fa fa-edit" style="color: #F7F5F2;"></i>
                                     </button>
                                 </td>
                                 <td class="text-center">
@@ -182,16 +183,17 @@
                                 <input id="data_agdt" type="date" class="form-control" style="width: 300px;" placeholder="Escolha a data do agendamento" oninput="consultarAgendamento();consultarAgendamentoManutencao()">
                             </div>                        
                             <div class="mb-3 d-flex align-items-center">
-                                <label for="frutas">Escolha um serviço:</label>
-                                <select id="frutas" name="frutas">
-                                    <option value="laranja" >Desenvolver Jogos</option>
-                                    <option value="banana">Design de personagens e ambientes</option>
-                                    <option value="maça" selected >Teste de Qualidade e Garantia</option>
-                                    <option value="uva">Criação de Roteiro e Narrativa</option>
-                                    <option value="melancia">Marketing e Lançamento de Jogos</option>
-                                    <option value="melancia">Suporte e Manutenção de Jogos e Consoles</option>
+                                <label for="servicos">Escolha um serviço:</label>
+                                <select id="servicos" name="servicos">
+                                    <option value="desenvolvimento" >Desenvolvimento de Móveis</option>
+                                    <option value="design_interiores">Design de Interiores</option>
+                                    <option value="qualidade" selected >Teste de Qualidade e Garantia</option>
+                                    <option value="personalizacao">Personalização de Móveis</option>
+                                    <option value="marketing">Marketing e Lançamento de Produtos</option>
+                                    <option value="suporte">Suporte e Manutenção de Móveis</option>
                                 </select>
                             </div>
+                            
 
                             <div class="mb-3 d-flex align-items-center">
                                 <input type="options" id="chk08" class="form-check-input" value="08:00" style="margin-right: 10px;" data-group="horario">
