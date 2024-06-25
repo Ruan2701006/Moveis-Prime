@@ -76,27 +76,27 @@ section {
 
 .section-title {
     text-align: center;
-    /* padding-bottom: 30px; *
+    padding-bottom: 30px; 
 }
 
 .section-title h2 {
     font-size: 32px;
     font-weight: bold;
-    /* margin-bottom: 20px; */
+    margin-bottom: 20px; 
     padding-bottom: 20px;
     position: relative;
-    color: var(--red);
+    color: #648d78;
 }
 
 .modal-header, .modal-footer{
-    background-color: var(--red);
+    background-color: #ffffff;
 
 }
 .modal-header h1{
-    color: var(--black);
+    color: #648d78;
 }
-.modal-body{
-    background-color: var(--black);
+.modal-body{    
+    background-color: #ffffff;
 }
 
 footer {
@@ -116,22 +116,6 @@ footer {
 
 label{
     color: var(--red);
-}
-
-/*--------------------------------------------------------------
-# Butao voltar
---------------------------------------------------------------*/
-button{
-    background-color: #648d78 !important;
-    border: none !important;
-    color: var(--black) !important;
-    transition: .5s;
-}
-
-button:hover{
-    background-color: var(--black) !important;
-    color: var(--purple) !important;
-    border: 1px solid var(--purple) !important;
 }
 
 /*--------------------------------------------------------------

@@ -28,7 +28,7 @@ h5,
 h6,
 .bem-vindo{
     color: var(--darkiest-color) !important;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Roboto', cursive;
     font-weight: 700;
 }
 

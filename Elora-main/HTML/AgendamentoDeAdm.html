@@ -30,7 +30,7 @@
 
             <div class="add-user-button">
                 <br>
-                <h1 class="section-title cliente-title-maneger">Agendamento de Usuário</h1>
+                <h1 class="section-title cliente-title-maneger">Agendamento de Adm</h1>
                 <br>
             </div>
 
@@ -66,8 +66,8 @@
                             <th>Serviço</th>
                             <th>Valor</th>
                             <th>Confirmação</th>
-                            <th style="color: black;">Editar</th>
-                            <th style="color: black;">Excluir</th>
+                            <th style="color: blue;">Editar</th>
+                            <th style="color: red;">Excluir</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -85,12 +85,12 @@
 
                                 <td class="text-center">
                                     <button class="btn btn-default" onclick="definirEdt('@item.Id','@item.Nome', '@item.Email', '@item.Telefone', '@item.AgendarData','@item.Horario', '@item.Servico', '@item.Valor', '@item.Confirmacao')" data-bs-toggle="modal" data-bs-target="#EditarAgendamento">
-                                        <i class="fa fa-edit" style="color: black;"></i>
+                                        <i class="fa fa-edit" style="color: blue;"></i>
                                     </button>
                                 </td>
                                 <td class="text-center">
                                     <button class="btn btn-default" onclick="definirExc('@item.Id','@item.Nome', '@item.Email', '@item.Telefone', '@item.AgendarData','@item.Horario', '@item.Servico', '@item.Valor', '@item.Confirmacao')" data-bs-toggle="modal" data-bs-target="#ExcluirAgendamento">
-                                        <i class="fa fa-trash" style="color: black;"></i>
+                                        <i class="fa fa-trash" style="color: #e61616;"></i>
                                     </button>
                                 </td>
                             </tr>
