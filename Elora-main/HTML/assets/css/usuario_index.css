@@ -37,10 +37,16 @@ a {
     color: #648d78 !important;
 }
 
-p,
-td,
+p {
+    color: #f10b0b !important;
+}
+
+td {
+    color: #070707 !important;
+}
+
 th {
-    color: #648d78 !important;
+    color: #000000 !important;
 }
 
 input {
