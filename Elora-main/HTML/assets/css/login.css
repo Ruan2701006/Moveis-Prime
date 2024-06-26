@@ -7,7 +7,7 @@
     --orange-color: #deeaea;
     --orange2-color:#deeaea;
     --white-color:#ffffff;
-    --darkiest-color:  #648d78;
+    --darkiest-color: #648d78;
     --darkless-color: #deeaea;
     
 }
@@ -92,15 +92,15 @@ body {
 }
 
 button{
-    background-color: var(--orange-color) !important;
+    background-color: #deeaea !important;
     border: none !important;
-    color: var(--darkiest-color) !important;
+    color: #648d78 !important;
     transition: .5s;
 }
 
 button:hover{
-    background-color: var(--darkless-color) !important;
-    color: var(--white-color) !important;
+    background-color: #648d78 !important;
+    color: #ffffff !important;
 }
 
 i , a{

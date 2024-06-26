@@ -142,7 +142,7 @@ section{
 }
 
 .btn:hover{
-    color: var(--white);
+    color: #C7B7A3;
     background-color: var(--purple);
     cursor: pointer;
 }

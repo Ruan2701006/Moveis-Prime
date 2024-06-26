@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
-
-:root {
-   --light-pink:#deeaea;
-    --dark-pink:#deeaea;
-    --orange-color: #deeaea;
-    --orange2-color:#deeaea;
-    --white-color:#ffffff;
-    --darkiest-color:  #648d78;
-    --darkless-color: #deeaea;
-   
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -20,14 +8,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
-body{
-    background-color: var(-);
+body {
+    background-color: #deeaea !important;
 }
 
 html {
     min-height: 100vh;
 }
-main{
+
+main {
     min-height: calc(100vh - 100px);
 }
 
@@ -37,33 +26,37 @@ h3,
 h4,
 h5,
 h6,
-.bem-vindo{
-    color: var(--red) ;
+.bem-vindo {
+    color: #648d78 !important;
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
 
 a {
     text-decoration: none !important;
-    color: var(--purple) !important;
+    color: #648d78 !important;
 }
 
-p, td,th {
-    color: var(--purple);
+p,
+td,
+th {
+    color: #648d78 !important;
 }
 
 input {
     width: 100%;
     padding: 10px;
-    border: 1px solid var(--purple);
+    border: 1px solid #648d78 !important;
     border-radius: 50px;
 }
 
-input:focus, select:focus{
-    outline: 4px solid var(--red) !important;
+input:focus,
+select:focus {
+    outline: 4px solid #648d78 !important;
 }
-select option:hover{
-    background-color: var(--grey);
+
+select option:hover {
+    background-color: #648d78 !important;
 }
 
 /*--------------------------------------------------------------
@@ -76,27 +69,31 @@ section {
 
 .section-title {
     text-align: center;
-    padding-bottom: 30px; 
+    padding-bottom: 30px;
 }
 
 .section-title h2 {
     font-size: 32px;
     font-weight: bold;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
     padding-bottom: 20px;
     position: relative;
-    color: #648d78;
+    color: #deeaea !important;
 }
 
-.modal-header, .modal-footer{
-    background-color: #ffffff;
+.modal-header {
+    background-color: #deeaea !important;
+}
+.modal-footer {
+    background-color: #ffffff !important;
+}
 
+.modal-header h1 {
+    color: #648d78 !important;
 }
-.modal-header h1{
-    color: #648d78;
-}
-.modal-body{    
-    background-color: #ffffff;
+
+.modal-body {
+    background-color: #ffffff !important;
 }
 
 footer {
@@ -105,31 +102,35 @@ footer {
 }
 
 
-.page-maneger{
-    background-color: var(--black);
+.page-maneger {
+    background-color: #ffffff !important;
     margin-top: 2.5em;
     border-radius: 8px;
-    box-shadow: 2px 0 10px -2px var(--red);
+    box-shadow: 2px 0 10px -2px #648d78 !important;
     height: 590px;
     overflow: hidden;
 }
 
-label{
-    color: var(--red);
+label {
+    color: red !important;
 }
 
 /*--------------------------------------------------------------
 # Butao voltar
 --------------------------------------------------------------*/
-button{
-    background-color: var(--purple) !important;
+button {
+    background-color: #deeaea !important;
     border: none !important;
-    color: var(--black) !important;
+    color: #648d78 !important;
     transition: .5s;
 }
 
-button:hover{
-    background-color: var(--black) !important;
-    color: var(--purple) !important;
-    border: 1px solid var(--purple) !important;
+button:hover {
+    background-color: #648d78 !important;
+    color: #deeaea !important;
+    border: 1px solid #648d78 !important;
+}
+
+element.style {
+    color: red;
 }

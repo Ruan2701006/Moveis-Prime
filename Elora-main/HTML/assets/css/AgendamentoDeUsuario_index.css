@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
-
-:root {
-    --darkiest-color: #648d78;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +10,7 @@
 
 
 body{
-    background-color: #deeaea;
+    background-color: #deeaea !important;
 }
 
 html {
@@ -43,13 +38,13 @@ a {
 }
 
 p {
-    color: #648d78;
+    color: #648d78 !important;
 }
 
 input {
     width: 100%;
     padding: 10px;
-    border: 1px solid #648d78;
+    border: 1px solid #648d78 imo !important;
     border-radius: 50px;
 }
 
@@ -57,7 +52,7 @@ input:focus, select:focus{
     outline: 4px solid #648d78 !important;
 }
 select option:hover{
-    background-color:#648d78;
+    background-color:#deeaea !important;
 }
 
 /*--------------------------------------------------------------
@@ -79,7 +74,7 @@ section {
     /* margin-bottom: 20px; */
     padding-bottom: 20px;
     position: relative;
-    color: #648d78;
+    color: #648d78 !important;
 }
 
 
@@ -90,10 +85,10 @@ footer {
 
 
 .page-maneger{
-    background-color: #deeaea;
+    background-color: #ffff !important;
     margin-top: 2.5em;
     border-radius: 8px;
-    box-shadow: 2px 0 10px -2px #648d78;
+    box-shadow: 2px 0 10px -2px #648d78 !important;
     height: 590px;
     overflow: hidden;
 }
@@ -102,15 +97,15 @@ footer {
 # Butao voltar
 --------------------------------------------------------------*/
 
-button{
-    background-color: var(--purple) !important;
+button {
+    background-color: #deeaea !important;
     border: none !important;
-    color: var(--black) !important;
+    color: #648d78 !important;
     transition: .5s;
 }
 
-button:hover{
-    background-color: var(--black) !important;
-    color: var(--purple) !important;
-    border: 1px solid var(--purple) !important;
+button:hover {
+    background-color: #648d78 !important;
+    color: #deeaea !important;
+    border: 1px solid #648d78 !important;
 }
